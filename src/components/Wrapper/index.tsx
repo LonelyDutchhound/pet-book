@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {Page} from "../components/Styled/Page";
+import {Page} from "../Styled/Page";
 
 type WrapperProps = {
   header: ReactNode;

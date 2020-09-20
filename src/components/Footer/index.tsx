@@ -3,8 +3,8 @@ import {
   FooterCopyright,
   FooterSocialIcon,
   FooterSocials
-} from '../components/Styled/FooterElements';
-import {FooterWrapper} from "../components/Styled/FooterWrapper";
+} from '../Styled/FooterElements';
+import {FooterWrapper} from "../Styled/FooterWrapper";
 
 type FooterProps = {
   c: string;

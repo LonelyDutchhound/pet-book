@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import { hot } from 'react-hot-loader/root';
-import Header from "./Header";
+import Header from "./components/Header";
 import {Titles} from "./constants/titles";
-import Wrapper from "./Wrapper";
-import Footer from "./Footer";
-import FlexNavigationPanel from "./Navigation/FlexNavigationPanel";
+import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
+import FlexNavigationPanel from "./components/Navigation/FlexNavigationPanel";
 
 const App: React.FC = () => {
   const [isNavMenuOpened, setIsNavMenuOpened] = useState(false);

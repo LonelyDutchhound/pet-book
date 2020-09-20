@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {NavigationBar, NavigationLink} from "../components/Styled/NavigationBar";
+import {NavigationBar, NavigationLink} from "../Styled/NavigationBar";
 
 type FlexNavigationPanelProps = {
   isDisplayed: boolean;

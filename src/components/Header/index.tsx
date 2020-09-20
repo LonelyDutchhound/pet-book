@@ -1,15 +1,15 @@
 import React from 'react';
-import {Title, SubTitle} from "../components/Styled/Titles";
+import {Title, SubTitle} from "../Styled/Titles";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars, faCat, faDog, faTimes} from "@fortawesome/free-solid-svg-icons";
-import {HeaderWrapper} from "../components/Styled/HeaderWrapper";
-import {MediumIcon} from "../components/Styled/MediumIcon";
+import {HeaderWrapper} from "../Styled/HeaderWrapper";
+import {MediumIcon} from "../Styled/MediumIcon";
 import {
   HeaderColumnLeft,
   HeaderColumnRight,
   HeaderLogo,
   HeaderNavButtonContainer
-} from "../components/Styled/HeaderElements";
+} from "../Styled/HeaderElements";
 import HamburgerNavigationButton from "../Navigation/HamburgerNavigationButton";
 
 export type HeaderProps = {

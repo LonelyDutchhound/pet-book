@@ -2,7 +2,7 @@ import React from "react";
 // tslint:disable-next-line:no-implicit-dependencies
 import {shallow, ShallowWrapper} from "enzyme";
 
-import Header, {HeaderProps} from "../Header";
+import Header, {HeaderProps} from "../components/Header";
 
 const mockProps: HeaderProps = {
   title: 'Header',
